@@ -1,0 +1,2 @@
+1.PROBLEM:  Wrong column order in ddl script of artist_streaming_info 
+  SOLUTION: Be more wary of column structure in the original dataset aas well as the database currently in use in sql server
