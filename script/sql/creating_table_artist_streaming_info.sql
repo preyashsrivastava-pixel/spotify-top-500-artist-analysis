@@ -13,8 +13,8 @@ CREATE TABLE artist_streaming_info (
     total_streams_m FLOAT,
     lead_streams_m FLOAT,
     feature_streams_m FLOAT,
-    solo_streams_m FLOAT,
-    collaborative_streams_m FLOAT,
+    solo_streams_m FLOAT, 
     solo_stream_pct FLOAT,
+    collaborative_streams_m FLOAT,
     collaborative_stream_pct FLOAT
 );
