@@ -1,2 +1,9 @@
 1.PROBLEM:  Wrong column order in ddl script of artist_streaming_info 
   SOLUTION: Be more wary of column structure in the original dataset aas well as the database currently in use in sql server
+2.PROBLEM:  Error while loading data in python dataframe because of difference in language
+  SOLUTION: Adding encoding='latin1' to fix
+  df = pd.read_csv(
+    r'C:\Users\preya\OneDrive\Desktop\Spotify Data Analysis\processed_data\artists_final.csv',
+    encoding='latin1'
+)
+3.
